@@ -27,9 +27,9 @@ public class Prison {
         for(Prisoner prisoner:auxPrisonerList){
             System.out.println("--------------------------------");
             System.out.println("     Prisoner ID: "+prisoner.iD()+
-                    "\n     Name: "+prisoner.name()+
-                    "\n     Cell: "+prisoner.getCell()+
-                    "\n     Age: "+prisoner.age());
+                    "\nName: "+prisoner.name()+
+                    "\nCell: "+prisoner.getCell()+
+                    "\nAge: "+prisoner.age());
             System.out.println("--------------------------------");
         }
     }
