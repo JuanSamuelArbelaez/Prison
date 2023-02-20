@@ -28,7 +28,7 @@ public class Prison {
             System.out.println("--------------------------------");
             System.out.println("     Prisoner ID: "+prisoner.iD()+
                     "\n     Name: "+prisoner.name()+
-                    "\n     Cell: "+prisoner.getCell()+"-"+prisoner.floor()+
+                    "\n     Cell: "+prisoner.getCell()+
                     "\n     Age: "+prisoner.age());
             System.out.println("--------------------------------");
         }
